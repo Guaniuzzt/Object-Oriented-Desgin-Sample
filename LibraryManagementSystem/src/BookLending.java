@@ -13,6 +13,14 @@ public class BookLending {
     private String bookItemBarcode;
     private String memberId;
 
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
     public static boolean lendBook(String barcode, String memberId) {
         return false;
     }

@@ -1,12 +1,11 @@
 import Constant.BookFormat;
 import Constant.BookStatus;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class BookItem extends Book{
     private String barcode;
-
-
 
     private boolean isReferenceOnly;
     private Date borrowed;
@@ -46,8 +45,10 @@ public class BookItem extends Book{
         return true;
     }
 
-    private void updateBookItemStatus(BookStatus loaned) {
+    public void updateBookItemStatus(BookStatus loaned) {
     }
 
 
+    public void updateDueDate(LocalDate plusDays) {
+    }
 }
