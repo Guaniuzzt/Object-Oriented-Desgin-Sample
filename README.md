@@ -1,9 +1,10 @@
-# Object-Oriented Desgin Samples
+# Object-Oriented-Desgin-Samples
 
 
-The is a repository of serveral classic Object-Oriented Desgin Interview questions.
+This is repository of classic interview object-oriented design questions.
 
 
+## Content:
 
-1) Parking Loting Simple (Finished)
-2) Library Management System (Building)
+1) Simple ParkingLot (finished)
+2) Lirary Management System (building)
